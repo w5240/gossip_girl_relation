@@ -1,5 +1,5 @@
 {
-  "name": "relation",
+  "name": "gossip_girl",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "less": "3.0.4",
+    "less-loader": "5.0.0",
+    "relation-graph": "^1.1.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {

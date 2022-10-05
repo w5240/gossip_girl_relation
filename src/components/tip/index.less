@@ -1,0 +1,88 @@
+.tip {
+  position: absolute;
+  right: 0;
+  // top: 25px;
+  width: 500px;
+  height: 100vh;
+  // border-radius: 30px;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 9999;
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+
+  .imgTop {
+    // margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    .c-my-node {
+      height: 140px;
+      width: 140px;
+      border-radius: 50%;
+    }
+  }
+
+  .title {
+    padding: 24px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .des {
+    height: calc(100% - 316px);
+    overflow: auto;
+  }
+
+  .connect {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    // align-items: flex-start;
+    width: 100%;
+    padding: 8px 24px;
+    background-color: red;
+    height: 55px;
+    // transition: all .2s;
+
+    .a {
+      height: 60px;
+      position: absolute;
+      top: -35px;
+      left: 0;
+
+      .b {
+        display: inline-block;
+        padding: 8px;
+        cursor: pointer;
+      }
+
+    }
+
+    .imgBot {
+      display: flex;
+      width: 452px;
+      overflow: auto;
+      height: 62px;
+      .c-my-node {
+        margin-right: 16px;
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+
+  // img {
+  //   width: 100%;
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   // height: 10
+  // }
+}
